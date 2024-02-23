@@ -1,0 +1,17 @@
+# olav: MPG toevoegen onder [HAL] in fablab_frees1.ini
+HALFILE = LIB:xhc-hb04.tcl
+
+[XHC_HB04_CONFIG]
+layout = 2
+coords = x y z
+jogmode = vnormal
+sequence = 1
+require_pendant = no
+inch_or_mm = mm
+mpg_accels = 50 50 500 600
+
+#INCLUDE layout2.inc
+
+[APPLICATIONS]
+APP = monitor-xhc-hb04
+# /olav
